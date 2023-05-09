@@ -1,0 +1,29 @@
+* {
+    Margin:0;
+    padding:0;
+    
+    
+    }
+
+html {background: linear-gradient(rgb(49, 110, 195), pink);}
+
+
+
+h5 {color: rgb(221, 21, 48);}
+
+.subtitulo {color: brown;}
+
+form {
+    color: black;
+    width: 350px;     /* define que tan grande es la caja */
+    border-width: 4px;  /* ancho de los bordes */
+    border-radius: 20px; /* hace la caja ovalada */
+    border-style: solid;  /*  estilo de los bordes */
+    border-color: rgb(0, 0, 0); /* color */
+    padding-left: 60px;   /* separacion parte izq */
+    padding-bottom: 20px;  /* separacion de abajo */
+    margin: 10px;          /* separacion de arriba */
+    margin-left: 40%;      /* separacion izquierda */  
+    margin-bottom: 200px;
+    
+}

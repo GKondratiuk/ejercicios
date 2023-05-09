@@ -1,0 +1,91 @@
+*{
+    margin: auto;
+    font-family: sans-serif;
+}
+
+body {
+    width: 75%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+header {
+    background-color: cornflowerblue;
+    width: 100%;
+    height: 10vh;
+    color: white;
+    font-family: sans-serif;
+}
+
+nav{
+    background-color: rgb(28, 49, 112);
+    font-size: 14px;
+    font-family: sans-serif;
+    color: white;
+    width: 100%;
+    text-align: end;
+    margin-top: 0.8%;
+    height: 2.5vh;
+}
+
+nav p {
+    margin-top: 2px;
+
+}
+
+.banner {
+    background-color: grey;
+    width: 11%;
+    height: 35vh;
+    position: absolute;
+    left: 76.5%;
+    top: 13.5%;
+
+}
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    border: 20px solid gray;
+    width: 81%;
+    margin-left: 0;
+    
+}
+section article {
+    width: 25vw;
+}
+
+
+.destacado{
+    margin-top: 5px;
+    margin-left: 0px;
+    margin-bottom: 30px;
+    border-bottom: 10px solid grey;  
+    padding-bottom: 25px;  
+    padding-top: 15px;
+}
+
+.destacado h1 {
+    margin-bottom: 20px;
+}
+
+
+
+article {
+    
+    margin-bottom: 50px;
+}
+
+article h5 {
+    margin-bottom: 22px;
+    font-size: 16px;
+}
+
+footer{
+    display: flex;
+    color: white;
+    background-color: rgb(138, 176, 246);
+    padding: 10px;
+    width: 100%;
+}
