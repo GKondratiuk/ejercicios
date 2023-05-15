@@ -23,11 +23,27 @@ header {
     padding: 4vh 5vw;
 }
 
-header button {
+header .btn-dropdown {
     background-color: transparent;
     border: none;
     font-size: 1.4rem; /* rem calculo fontsize *1.4 */
+
 }
+
+
+.header-controls {
+    display: none;
+}
+
+.header-controls .btn{
+    background-color: transparent;
+    border: none;
+    padding: 7px 0;
+    width: 6.2rem;
+    font-size: 1.2rem;
+    border-radius: 10px;
+}
+
 
 .logo {
     position: relative;
@@ -59,10 +75,21 @@ header button {
 }
 
 .hero {
+    width: 80%;
+    display: flex;
+     /* el gap define el espacio e/ hijos*/
+}
+
+
+.heroText {
     width: 70%;
     display: flex;
     flex-direction: column;
-    gap: 1.2rem /* el gap define el espacio e/ hijos*/
+    gap: 1.2rem; /* el gap define el espacio e/ hijos*/
+}
+
+.heroImgContainer{
+    display: none;
 }
 
 main {
@@ -122,3 +149,75 @@ footer .follow {
 .copy {
     font-size: 0.8rem;
 }
+
+@media screen and (min-width: 1000px ){
+    .heroImgContainer{
+    display: flex;
+    justify-content: center;
+    width: 60%;
+    flex: 2;
+    }
+    
+    .heroText {
+        flex: 1;
+    }
+    .heroImgContainer img {
+        width: 80%;
+    }
+
+    html {
+        font-size: 18px ;
+    }
+    .header-controls{
+     display: flex;
+     gap: 3vw;
+    }
+    header .btn-dropdown {
+        display: none;}
+
+        
+
+        .header-controls  .btn-login {
+        border: solid 1px gray;
+        }
+        
+        .header-controls .btn-register{
+        background-color: #FFB412;
+        color: white;
+        box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.229); 
+        /*-webkit-text-stroke: black; - da bordes a las letras
+
+        son 4 propiedades: y, x, difuminado, crecimiento de la sombra a todos lados*/
+        }
+    .services{
+        flex-direction: row;
+        justify-content: space-between;
+        padding:3vh 10% ;
+    }
+    .serviceCard{
+        height: 25rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 17rem;
+    }
+    .serviceCard p {
+        flex: 1; /* le permite decir al hijo cuanto espacio va a ocupar del flexbox, divide espacios de manera responsiva. en esta caso ocupa 1/3 */
+        display: flex;
+        align-items: end;
+    }
+    .serviceImgContainer{
+        flex: 2;
+        display: flex;
+        align-items: center;
+        
+    }
+}
+
+@media screen and (min-width: 1000px ){
+
+}
+
+/* @media screen and (max-width: 1000){
+
+} */
