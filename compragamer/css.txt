@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;  
+}
+
+body{
+
+    background-color: #080F25;
+    margin-left: 2vw;
+}
+
+:root {
+    --color-secundario: #121c37ee;
+    --color-primario: #080F25;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--color-primario);
+}
+
+nav .buscador input{
+    border-radius: 20px;
+    height: 2rem;
+    background-color: var(--color-secundario);
+}
+
+nav .buscador{
+    display: flex;
+    align-items: center;
+}
+
+nav .buscador i{
+color: #0F67B0;
+font-size: 2rem;
+}
+
+nav .menu {
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+}
+
+nav .menu .homebtn{
+    color: white;
+    border-radius: 15px;
+    width: 5.5rem;
+    height: 2.3rem;
+}
+nav .menu .homebtn b{
+    color: black;
+}
+nav .menu i{
+    color: #0F67B0 ;
+    font-size: 1.5rem;
+}
+nav .menu .bi-ui-radios-grid{
+    color: white;
+}
+nav .menu .bi-envelope-fill{
+    color: white;
+}
+
+nav .menu .bi-bell-fill{
+    color: white;
+}
+nav .menu img {
+    height: 3rem;
+    border-radius: 20px;
+}
+
+nav .menu .userBtn{
+    color: white;
+    background-color: var(--color-secundario);
+}
+
+.perfil{
+    display: flex;
+    background-color: var(--color-secundario);
+    height: 40vh;
+    width: 25vw;
+    border-radius: 15px;
+    margin-top: 4vh;
+    margin-bottom: 4vh;
+    
+}
+
+.people{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: #121c37ee;
+    color: white;
+    height: 40vh;
+    width: 25vw;
+    gap: 1.5rem;
+    border-radius: 15px;
+}
+
+.people .p1 {
+    margin-left: 1rem;
+    display: flex;
+    justify-content: space-between;
+    width: 22vw;
+    
+}
+.people .p1 img{
+    height: 3rem;
+    border-radius: 20px;
+
+}
+
+.people .p1 button{
+    border-radius: 10px;
+    height: 2rem;
+    width: 4rem;
+    background-color: white;
+}
+
+.seccionUno{
+    display: flex;
+
+    background-color: var(--color-secundario);
+    height: 20vh;
+    width: 40vw;
+    border-radius: 15px;
+    margin-top: 4vh;
+    margin-bottom: 4vh;
+
+}

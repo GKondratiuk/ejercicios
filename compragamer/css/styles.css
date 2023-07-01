@@ -1,0 +1,274 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;  
+    font-family: 'Roboto', sans-serif;
+}
+
+:root {
+    --color-secundario: #121c37ee;
+    --color-primario: #080F25;
+}
+
+body{
+    background-color: var(--color-primario);
+    margin-left: 2vw; 
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 5vh;
+    
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--color-primario);
+    margin-top: 3vh;
+    margin-right: 4vw;
+    margin-left: 1vw;
+}
+
+nav .buscador input{
+    border-radius: 20px;
+    height: 2rem;
+    background-color: var(--color-secundario);
+    
+}
+
+nav .buscador{
+    display: flex;
+    align-items: center;
+}
+
+nav .buscador i{
+color: #0F67B0;
+font-size: 2rem;
+margin-right: 2rem;
+}
+
+nav .menu {
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+}
+
+nav .menu .homebtn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    border-radius: 15px;
+    width: 5.5rem;
+    height: 2rem;
+    border: 1px solid white;
+}
+nav .menu .homebtn b{
+    color: black;
+    margin-left: 0.2rem;
+    font-size: 13px;
+}
+nav .menu i{
+    color: #0F67B0 ;
+    font-size: 1.5rem;
+}
+nav .menu .bi-ui-radios-grid{
+    color: white;
+}
+nav .menu .bi-envelope-fill{
+    color: white;
+}
+
+nav .menu .bi-bell-fill{
+    color: white;
+}
+nav .menu img {
+    height: 2.5rem;
+    border-radius: 20px;
+}
+
+nav .menu .userBtn{
+    display: flex;
+    align-items: center;
+    color: white;
+    height: 3rem;
+    width: 12rem;
+    background-color: var(--color-secundario);
+    border-radius: 20px;
+}
+
+nav .menu .userBtn i{
+    color: white;
+}
+
+nav .menu .bi-list{
+    color: white;
+}
+
+.aUno{
+    display: flex;
+    flex-direction: column;
+    background-color: var(--color-primario);
+    height: 90vh;
+    width: 30vw;
+}
+
+
+.perfil{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: #121c37ee;
+    color: white;
+    height: 40vh;
+    width: 25vw;
+    gap: 1.5rem;
+    border-radius: 15px;
+    margin-left: 2vw;
+    margin-bottom: 3vh;
+}
+
+
+.people{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: #121c37ee;
+    color: white;
+    height: 40vh;
+    width: 25vw;
+    gap: 1.5rem;
+    border-radius: 15px;
+    margin-left: 2vw;
+}
+
+.people .p1 {
+    margin-left: 1rem;
+    display: flex;
+    justify-content: space-between;
+    width: 22vw;
+    
+}
+.people .p1 img{
+    height: 3rem;
+    border-radius: 20px;
+
+}
+
+.people .p1 button{
+    border-radius: 10px;
+    height: 2rem;
+    width: 4rem;
+    background-color: white;
+}
+
+.sUno{
+    display: flex;
+    flex-direction: column;
+    background-color: var(--color-primario);
+    height: 100vh;
+    width: 42vw;
+    border-radius: 15px;
+    margin-right: 3vw;
+    gap: 4vh;
+}
+
+.divUno{
+    display: flex;
+    flex-direction: column;
+    background-color: var(--color-secundario);
+    height: 20vh;
+    width: 42vw;
+    border-radius: 15px;
+}
+
+.divUnoUser{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    margin-top: 2vh;
+}
+
+.divUnoUser input{
+    background-color: #053761 ;
+    border-radius: 20px;
+    width: 35rem;
+    border: 0px solid
+}
+
+.divUno img{
+    height: 3rem;
+    border-radius: 20px;
+}
+
+.divUnoBtn {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 3.5vh;
+    gap: 5vw;
+}
+.divUnoBtn button {
+    background-color: var(--color-secundario);
+    border-radius: 20px;
+    color: white;
+    width: 4rem;
+    height: 2rem;
+    border: 1px solid rgb(96, 93, 93);
+    font-size: 12px;
+}
+
+.divDos{
+    display: flex;
+    flex-direction: row;
+    background-color: var(--color-secundario);
+    height: 20vh;
+    width: 42vw;
+    border-radius: 15px;
+}
+
+.divDos .divUser{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 20vh;
+    width: 32vw;
+    color: white;
+}
+
+.divDos .divUser img{
+    height: 3rem;
+    border-radius: 20px
+}
+
+.divTres{
+    background-color: var(--color-secundario);
+    height: 20vh;
+    width: 42vw;
+    border-radius: 15px;
+}
+
+
+
+main section {
+    display: flex;
+    flex-direction: row;
+    
+    
+}
+
+.aDos{
+    display: flex;
+    flex-direction: column;
+    background-color: grey;
+    height: 90vh;
+    width: 20vw;
+    margin-right: 3vw;
+    
+    border-radius: 15px;
+}

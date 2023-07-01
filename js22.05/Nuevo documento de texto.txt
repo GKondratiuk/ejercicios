@@ -1,0 +1,73 @@
+//BUCLE FOR
+
+//0) imprima los numeros del 10 al 1
+
+// for(let i = 10; i >= 1; i = i - 1){
+//     console.log (i)
+// }
+
+
+// 1)Imprime los números del 1 al 10
+
+// for(let i = 1; i <= 10; i = i + 1) {
+//     console.log (i)
+// } 
+
+
+// 2)Imprime los números pares del 2 al 20
+// for(let i = 2; i <= 20; i = i + 2) {
+//     console.log (i)
+// }
+
+// 3)Imprime los números impares del 1 al 19
+
+// for(let i = 1; i <= 19; i = i + 2) {
+//     console.log (i)
+// }
+
+// 5)Imprime los números del 1 al 10, pero se detiene al llegar al 5
+
+//for(let i = 1; i <= 10; i = i + 1){
+//if (i > 5){
+//    break
+//}
+//console.log (i)
+//}
+
+// 6)Imprime los números del 1 al 10, pero salta el 5
+
+//for (let i = 1; i <= 10; i = i + 1){
+  //  if (i == 5){
+        
+//        continue
+        
+//    }
+//    console.log (i)
+//} 
+
+
+
+CALCULADORA 
+let decision = (prompt ('escriba SI, si desea usar la calculadora'))
+while(decision === 'SI') {
+let operacion = (prompt ('solicite operacion valida'))
+let n1 = Number(prompt ('coloque el primer numero'))
+let n2 = Number(prompt ('coloque el segundo numero'))
+
+if (operacion === '+'){
+    alert('El resultado de ' + n1 + '+' + n2 + ' es: ' + (n1 + n2))
+} 
+else if (operacion === '-'){
+    alert('El resultado de ' + n1 + '-' + n2 + ' es: ' + (n1 - n2))
+}
+else if (operacion === '/'){
+    alert('El resultado de ' + n1 + '/' + n2 + ' es: ' + (n1 / n2))
+}  
+else if (operacion === '*'){
+    alert('El resultado de ' + n1 + '/' + n2 + ' es: ' + (n1 * n2))
+}  
+else{
+    alert ('alguno de los caracteres que colocó no es valido')
+}
+decision = (prompt ('escriba SI, si desea usar la calculadora'))
+}

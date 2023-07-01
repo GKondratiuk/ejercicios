@@ -1,0 +1,53 @@
+DESCARGAR NODE.
+CREAR UNA NUEVA CARPETA DE PROYECTO
+ABRIR TERMINAL
+COLOCAR COMANDO: npm create vite@latest
+COLOCAR COMANDO: npm install
+COLOCAR COMANDO: npm run dev (poner esto cada vez que queremos ver el enlace de nuestra pagina)
+EDITAR ARCHIVO app.jsx
+
+import React from 'react'
+
+ 
+
+ 
+
+function App() {
+
+  return (
+
+    <>
+
+    
+
+    </>
+
+  )
+
+}
+
+ 
+
+export default App
+
+ELIMINAR ARCHIVO app.css
+ELIMINAR ARCHIVO index.css
+EDITAR main.jsx ELIMINANDO import/index.css
+CREAR APP.CSS
+NPM = NODE PACKAGE MANAGER
+
+DESCARGAR EXTENSION ES7+REACT/REDUX
+========================================================
+CREAR CARPETA ''COMPONENTES'' en 
+La carpeta componentes va a contener todos nuestros componentes
+EJEMPLO CARPETA 'BUTTONS' CON SU ARCHIVO 'BUTTON.JSX' 'BUTTON.CSS'
+DENTRO DE 'COMPONENTS' CREAR CARPETA 'BACKGROUND' CON ARCHIVO 'BACKGROUND.JSX' y scribir ''rafce''
+
+
+
+========================================================
+
+	COMPONENTES - LAS FUNCIONES EN REACT SE LLAMAN COMPONENTES
+
+=========================================================
+

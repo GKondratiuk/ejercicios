@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <title>Document</title>
+</head>
+<body>
+<nav>
+    <div class="buscador">
+    <i class="bi bi-twitter"></i>
+    <input type="text">
+</div>
+<div class="menu">
+    <button class="homebtn"><i class="bi bi-house-fill"></i> <b> HOME </b> </button>
+    <i class="bi bi-ui-radios-grid"></i>
+    <i class="bi bi-envelope-fill"></i>
+    <i class="bi bi-bell-fill"></i>
+    <button class="userBtn"><img src="./img/36.jpg" alt="">Paquita Navajas <i class="bi bi-caret-down-fill"></i></button>
+    <i class="bi bi-list"></i>
+</div>
+</nav>
+
+<aside class="perfil">
+</aside>
+
+<section class="seccionUno">
+
+</section>
+
+
+
+
+
+
+
+
+<aside class="people">
+<h4>People you may know</h4>
+<div class="p1">
+    <img src="./img/0.jpg" alt="">
+        <div>
+            <p>Milli Smith</p>
+            <h5>@Milly1243</h5>
+        </div>
+    <button><b>Follow</b></button>
+</div>
+<div class="p1">
+    <img src="./img/10.jpg" alt="">
+        <div>
+            <p>Pepito Pepino</p>
+            <h5>@Ppino</h5>
+        </div>
+    <button><b>Follow</b></button>
+</div>
+<div class="p1">
+    <img src="./img/23.jpg" alt="">
+        <div>
+            <p>Juan Jose</p>
+            <h5>@Jjose</h5>
+        </div>
+    <button><b>Follow</b></button>
+</div>
+</aside>
+
+
+
+<script src="./script.js"></script>
+</body>
+</html>

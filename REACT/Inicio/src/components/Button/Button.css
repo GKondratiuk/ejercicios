@@ -1,0 +1,13 @@
+/*Recordar importar siempre al 'Button.jsx' en este caso*/
+.btn{
+    background-color: aliceblue;
+    border: black solid 1px;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.btn-dark{
+    background-color: black;
+    color: white;
+   
+}
