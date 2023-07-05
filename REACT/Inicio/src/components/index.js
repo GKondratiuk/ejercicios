@@ -2,6 +2,8 @@
 import Button from "./Button/Button"; 
 import Input from "./Input/Input";
 import Background from "./Background/Background";
+import { ItemListContainer } from "./ItemListContainer/ItemListContainer";
+import { ListaDeseos } from "./ListaDeseos/ListaDeseos";
 
 /* Recordar exportar todo para importarlo nuevamente al 'App.jsx'*/
-export{Button, Input, Background} 
+export{Button, Input, Background, ItemListContainer, ListaDeseos} 

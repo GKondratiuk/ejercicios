@@ -1,10 +1,8 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import App from './App.jsx'
-import './index.css'
 
-ReactDOM.createRoot(document.getElementById('root')).render(
-  <React.StrictMode>
+
+ReactDOM.createRoot(document.getElementById('root')).render( /*Esto renderiza, solo vamos a rendizar el app, ese app es nuestro archivo app.jsx*/
     <App />
-  </React.StrictMode>,
 )

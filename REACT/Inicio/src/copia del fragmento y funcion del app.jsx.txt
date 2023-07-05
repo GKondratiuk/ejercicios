@@ -1,0 +1,22 @@
+ <div className='titulo'>
+    <Background>
+    <h1>Hola desde React</h1>
+    </Background>
+    
+    </div>
+    
+
+    <div>
+  <Button funcion={saludar}/>
+  <Button funcion={despedida} type='btn-dark'/>
+  <Input/>
+    </div>
+
+
+
+const saludar = () => {
+  alert('hola ')
+  }
+  const despedida = () => {
+    alert('adios ')
+  }
