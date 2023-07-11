@@ -19,9 +19,8 @@ footer{
 .list{
     display: flex;
     flex-direction: row;
-    gap: 12vw;
+    gap: 10vw;
 }
-
 
 ul{
     display: flex;
@@ -59,26 +58,19 @@ ul{
 }
 
 
-@media screen and (min-width: 600px){
-
-
-}
-
 @media screen and (max-width: 750px){
     
-   footer{
+footer{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-   }
+}
 
 .constructor{
     flex-direction: row;
     align-items: center;
     margin-bottom: 3rem;
 }
-
-
 
 .three{
         display: none;
@@ -89,5 +81,4 @@ ul{
     gap: 1rem;
     margin-top: 4rem;
 }
-
 }

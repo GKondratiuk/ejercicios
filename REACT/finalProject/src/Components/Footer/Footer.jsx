@@ -3,6 +3,8 @@ import './Footer.css'
 export const Footer = () => {
 return (
 
+<>
+
 <footer>
 <div className='constructor'>
     <h2>Constructor</h2>
@@ -64,7 +66,7 @@ return (
 </div>
 </footer>
 
-
+</>
 
 )
 }
